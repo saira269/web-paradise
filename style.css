@@ -1,0 +1,22 @@
+    body {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') center/cover no-repeat;
+}
+
+.hero h1, .hero p {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Flower Cards */
+.flower-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.flower-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
